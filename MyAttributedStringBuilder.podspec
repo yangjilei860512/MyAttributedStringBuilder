@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = 'MyAttributedStringBuilder'
-s.version      = '1.0.0'
+s.version      = '1.0.1'
 s.summary      = '富文本字符串'
 s.description  = '富文本字符串111'
 s.homepage     = 'https://github.com/yangjilei860512/MyAttributedStringBuilder'
