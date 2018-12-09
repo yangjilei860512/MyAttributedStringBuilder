@@ -17,6 +17,7 @@ s.license      = "MIT"
 # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
 s.author       = { "zyq" => "470393147@qq.com" }
 s.source       = { :git => 'https://github.com/yangjilei860512/MyAttributedStringBuilder.git', :tag => s.version}
+s.source_files = 'MyAttributedStringBuilder/*.{h,m}'
 s.requires_arc = true
 
 end
