@@ -16,6 +16,6 @@ s.license      = 'MIT'
 s.authors      = {'YJL' => '470393147@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/yangjilei860512/MyAttributedStringBuilder.git', :tag => s.version}
-s.source_files = 'MyAttributedStringBuilder/*.{h,m}'
+s.source_files = 'MyAttributedString/*.{h,m}'
 s.requires_arc = true
 end
