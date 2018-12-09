@@ -15,7 +15,7 @@
 		18E855961B39407E003E2C2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E855951B39407E003E2C2D /* Images.xcassets */; };
 		18E855991B39407E003E2C2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E855971B39407E003E2C2D /* LaunchScreen.xib */; };
 		18E855A51B39407E003E2C2D /* MyAttributedStringDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E855A41B39407E003E2C2D /* MyAttributedStringDemoTests.m */; };
-		18E855B01B3940AD003E2C2D /* MyAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E855AF1B3940AD003E2C2D /* MyAttributedStringBuilder.m */; };
+		4500573A21BD35EA00098DF7 /* MyAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500573921BD35E900098DF7 /* MyAttributedStringBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		18E8559E1B39407E003E2C2D /* MyAttributedStringDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAttributedStringDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E855A31B39407E003E2C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E855A41B39407E003E2C2D /* MyAttributedStringDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAttributedStringDemoTests.m; sourceTree = "<group>"; };
-		18E855AE1B3940AD003E2C2D /* MyAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAttributedStringBuilder.h; sourceTree = "<group>"; };
-		18E855AF1B3940AD003E2C2D /* MyAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAttributedStringBuilder.m; sourceTree = "<group>"; };
+		4500573821BD35E900098DF7 /* MyAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAttributedStringBuilder.h; sourceTree = "<group>"; };
+		4500573921BD35E900098DF7 /* MyAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAttributedStringBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 		18E8557C1B39407E003E2C2D = {
 			isa = PBXGroup;
 			children = (
+				4500573721BD35E900098DF7 /* MyAttributedStringBuilder */,
 				18E855871B39407E003E2C2D /* MyAttributedStringDemo */,
 				18E855A11B39407E003E2C2D /* MyAttributedStringDemoTests */,
 				18E855861B39407E003E2C2D /* Products */,
@@ -87,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				18B098B81B3A575E00D3761A /* test@2x.png */,
-				18E855AE1B3940AD003E2C2D /* MyAttributedStringBuilder.h */,
-				18E855AF1B3940AD003E2C2D /* MyAttributedStringBuilder.m */,
 				18E8558C1B39407E003E2C2D /* AppDelegate.h */,
 				18E8558D1B39407E003E2C2D /* AppDelegate.m */,
 				18E8558F1B39407E003E2C2D /* ViewController.h */,
@@ -125,6 +124,15 @@
 				18E855A31B39407E003E2C2D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4500573721BD35E900098DF7 /* MyAttributedStringBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				4500573821BD35E900098DF7 /* MyAttributedStringBuilder.h */,
+				4500573921BD35E900098DF7 /* MyAttributedStringBuilder.m */,
+			);
+			path = MyAttributedStringBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +238,8 @@
 			files = (
 				18E855911B39407E003E2C2D /* ViewController.m in Sources */,
 				18E8558E1B39407E003E2C2D /* AppDelegate.m in Sources */,
-				18E855B01B3940AD003E2C2D /* MyAttributedStringBuilder.m in Sources */,
 				18E8558B1B39407E003E2C2D /* main.m in Sources */,
+				4500573A21BD35EA00098DF7 /* MyAttributedStringBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
