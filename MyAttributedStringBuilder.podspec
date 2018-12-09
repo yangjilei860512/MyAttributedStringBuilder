@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
 s.name         = 'MyAttributedStringBuilder'
-s.version      = '0.0.1'
+s.version      = '1.0.0'
 s.summary      = '富文本字符串'
 s.homepage     = 'https://github.com/yangjilei860512/MyAttributedStringBuilder'
 s.license      = 'MIT'
 s.authors      = {'YangJiLei' => '470393147@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/yangjilei860512/MyAttributedStringBuilder', :tag => s.version}
-s.source_files = 'MyAttributedStringDemo/*.{h,m}'
+s.source_files = 'MyAttributedStringBuilder/MyAttributedStringDemo/*.{h,m}'
 s.requires_arc = true
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
